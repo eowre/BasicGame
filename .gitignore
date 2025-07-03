@@ -1,0 +1,35 @@
+# === Build artifacts ===
+build/
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.dSYM/
+*.app
+
+# === CMake generated files ===
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+Testing/
+CTestTestfile.cmake
+install_manifest.txt
+
+# === Editor/IDE files ===
+.vscode/
+.idea/
+*.swp
+*.bak
+*.tmp
+
+# === OS generated files ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
